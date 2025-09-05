@@ -15,7 +15,7 @@ const Contact = () => {
         e.preventDefault();
         setError('');
         try {
-            await axios.post('https://bit-and-beyond-app.onrender.com/sendEmail', form);
+            await axios.post('https://bit-and-beyond-app-gdkw.onrender.com/sendEmail', form);
             setSubmitted(true);
         } catch (err) {
             setError('Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.');
