@@ -1,0 +1,114 @@
+.blog-post-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(99,102,241,0.06);
+    padding: 2.5rem 2rem;
+}
+
+.blog-post-container h1 {
+    margin-bottom: 0.5rem;
+    color: #232946;
+    font-size: 2.2rem;
+}
+
+.blog-date {
+    color: #6366f1;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.blog-content {
+    line-height: 1.8;
+    font-size: 1.08rem;
+    color: #232946;
+    margin-bottom: 2rem;
+}
+
+.blog-content h1, .blog-content h2, .blog-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #4f46e5;
+    line-height: 1.3;
+}
+
+.blog-content h1 { font-size: 2rem; }
+.blog-content h2 { font-size: 1.5rem; }
+.blog-content h3 { font-size: 1.2rem; }
+
+.blog-content ul, .blog-content ol {
+    margin: 1rem 0 1rem 2rem;
+    padding-left: 1.2rem;
+}
+
+.blog-content li {
+    margin-bottom: 0.5rem;
+}
+
+.blog-content code {
+    background: #f3f4f6;
+    color: #d7263d;
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.98em;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+}
+
+.blog-content pre {
+    background: #232946;
+    color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    font-size: 0.98em;
+}
+
+.blog-content blockquote {
+    border-left: 4px solid #6366f1;
+    background: #f1f5f9;
+    color: #555;
+    margin: 1.5rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    font-style: italic;
+}
+
+.blog-content p {
+    margin: 1.1rem 0;
+}
+
+.back-link {
+    color: #4f46e5;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.blogpost-author-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 16px 0;
+}
+.blogpost-author-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ececec;
+    transition: transform 0.35s cubic-bezier(.4,2,.6,1), filter 0.35s cubic-bezier(.4,2,.6,1);
+}
+.blogpost-author-photo:hover {
+    transform: scale(1.13);
+    filter: none;
+     width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.blogpost-author-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}

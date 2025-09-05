@@ -1,0 +1,77 @@
+.about-container {
+    max-width: 950px;
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(99,102,241,0.10);
+    padding: 2.5rem 2.2rem;
+}
+
+.about-section-title {
+    color: #232946;
+    font-size: 1.25rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.about-container p {
+    color: #232946;
+    font-size: 1.13rem;
+    margin-bottom: 1.3rem;
+    line-height: 1.85;
+}
+
+.about-container ul {
+    margin: 0 0 1.5rem 1.2rem;
+    padding-left: 1.2rem;
+    font-size: 1.08rem;
+    color: #232946;
+    line-height: 1.7;
+}
+
+.about-container li {
+    margin-bottom: 0.7rem;
+}
+
+.about-quote {
+    font-style: italic;
+    background: #e0e7ff;
+    color: #4f46e5;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 6px rgba(99,102,241,0.04);
+}
+
+.about-profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 3px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .about-container {
+        padding: 1.2rem 0.5rem;
+    }
+    .about-title {
+        font-size: 1.5rem;
+    }
+    .about-section-title {
+        font-size: 1.08rem;
+    }
+    .about-container p,
+    .about-container ul {
+        font-size: 1rem;
+        padding: 0.8rem 0.7rem;
+    }
+}

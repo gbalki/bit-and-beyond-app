@@ -1,0 +1,98 @@
+.contact-container {
+    max-width: 600px;
+    margin: 4rem auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(99,102,241,0.10);
+    padding: 2.5rem 2rem;
+}
+
+.contact-title {
+    color: #4f46e5;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.contact-desc {
+    color: #232946;
+    font-size: 1.08rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-form label {
+    color: #232946;
+    font-size: 1.04rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.7rem 1rem;
+    border: 1.5px solid #6366f1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f8fafc;
+    color: #232946;
+    transition: border 0.2s, box-shadow 0.2s;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 2px 12px rgba(99,102,241,0.13);
+    background: #fff;
+    outline: none;
+}
+
+.contact-btn {
+    background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 0;
+    font-size: 1.08rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.10);
+}
+
+.contact-btn:hover {
+    background: linear-gradient(90deg, #60a5fa 0%, #6366f1 100%);
+    box-shadow: 0 4px 16px rgba(99,102,241,0.15);
+}
+
+.contact-success {
+    background: #e0e7ff;
+    color: #4f46e5;
+    border-radius: 10px;
+    padding: 1.2rem 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(99,102,241,0.07);
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 1.2rem 0.5rem;
+    }
+    .contact-title {
+        font-size: 1.3rem;
+    }
+}
